@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <include name="default.xml" />
     <project path="device/samsung/jflte" name="CyanogenMod/android_device_samsung_jflte" revision="cm-11.0" />
     <project path="device/samsung/jf-common" name="Cyanogenmod/android_device_samsung_jf-common" revision="cm-11.0" />
     <project path="device/samsung/msm8960-common" name="Cyanogenmod/android_device_samsung_msm8960-common" revision="cm-11.0" />
@@ -10,5 +9,11 @@
     <remove-project name="mer-hybris/hybris-boot" />
     <project path="hybris/hybris-boot" name="simonvanderveldt/hybris-boot" revision="master" />
     <remove-project name="mer-hybris/droid-hal-device" />
-    <project path="rpm" name="simonvanderveldt/droid-hal-device" revision="hybris-11.0" />
+    <project path="rpm" name="simonvanderveldt/droid-hal-jflte" revision="master" sync-s="true" />
+    <remove-project name="mer-hybris/droid-hal-configs" />
+    <project path="hybris/droid-configs" name="simonvanderveldt/droid-config-jflte" revision="master" sync-s="true" />
+    <remove-project name="mer-hybris/droid-hal-version" />
+    <project path="hybris/droid-hal-version-jflte" name="simonvanderveldt/droid-hal-version-jflte" revision="master" sync-s="true" />
+    <remove-project name="mer-hybris/android_device_lge_hammerhead" />
+    <remove-project name="mer-hybris/android_kernel_lge_hammerhead" />
 </manifest>

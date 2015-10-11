@@ -4,6 +4,6 @@ This is the manifest for Sailfish OS for the Samsung Galaxy S4 (International LT
 
 ## How to use
 - Follow [HADK](https://sailfishos.org/develop/hadk/) chapter 5.1.
-- Use `repo init -u git://github.com/mer-hybris/android.git -b hybris-11.01 --depth=10` to install Repo
+- Use `repo init -u git://github.com/mer-hybris/android.git -b hybris-11.0 --depth=10` to install Repo
 - `mkdir $ANDROID_ROOT/.repo/local_manifests` and add `jflte.xml` from this repo to it
-- Finally run `repo sync -c` from $ANDROID_ROOT to synchronize/download all repos
+- Run `repo sync -c` from $ANDROID_ROOT to synchronize/download all repos

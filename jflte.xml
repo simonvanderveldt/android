@@ -6,14 +6,9 @@
     <project path="device/samsung/qcom-common" name="Cyanogenmod/android_device_samsung_qcom-common" revision="cm-11.0" />
     <project path="hardware/samsung" name="Cyanogenmod/android_hardware_samsung" revision="cm-11.0" />
     <project path="kernel/samsung/jf" name="simonvanderveldt/android_kernel_samsung_jf" revision="cm-11.0" />
+    <project path="rpm" name="simonvanderveldt/droid-hal-jflte" revision="master" sync-s="true" />
+    <project path="hybris/droid-configs" name="simonvanderveldt/droid-config-jflte" revision="master" sync-s="true" />
+    <project path="hybris/droid-hal-version-jflte" name="simonvanderveldt/droid-hal-version-jflte" revision="master" sync-s="true" />
     <remove-project name="mer-hybris/hybris-boot" />
     <project path="hybris/hybris-boot" name="simonvanderveldt/hybris-boot" revision="master" />
-    <remove-project name="mer-hybris/droid-hal-device" />
-    <project path="rpm" name="simonvanderveldt/droid-hal-jflte" revision="master" sync-s="true" />
-    <remove-project name="mer-hybris/droid-hal-configs" />
-    <project path="hybris/droid-configs" name="simonvanderveldt/droid-config-jflte" revision="master" sync-s="true" />
-    <remove-project name="mer-hybris/droid-hal-version" />
-    <project path="hybris/droid-hal-version-jflte" name="simonvanderveldt/droid-hal-version-jflte" revision="master" sync-s="true" />
-    <remove-project name="mer-hybris/android_device_lge_hammerhead" />
-    <remove-project name="mer-hybris/android_kernel_lge_hammerhead" />
 </manifest>
